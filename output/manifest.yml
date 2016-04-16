@@ -1,0 +1,11 @@
+---
+declared-services:
+  dialog-service:
+    label: dialog
+    plan: standard
+applications:
+- services:
+  - dialog-service
+  name: dialog-java-local-intelli-tutor
+  path:  output/dialog-java-local-intelli-tutor.war
+  memory: 512M

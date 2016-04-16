@@ -1,0 +1,37 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="PeriodicElements">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="PeriodicElement">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="AtomicNumber"/>
+              <xs:element type="xs:string" name="Element"/>
+              <xs:element type="xs:string" name="Symbol"/>
+              <xs:element type="xs:string" name="AtomicWeight"/>
+              <xs:element type="xs:string" name="Period"/>
+              <xs:element type="xs:string" name="Group"/>
+              <xs:element type="xs:string" name="Phase"/>
+              <xs:element type="xs:string" name="MostStableCrystal"/>
+              <xs:element type="xs:string" name="Type"/>
+              <xs:element type="xs:string" name="IonicRadius"/>
+              <xs:element type="xs:string" name="AtomicRadius"/>
+              <xs:element type="xs:string" name="Electronegativity"/>
+              <xs:element type="xs:string" name="FirstIonizationPotential"/>
+              <xs:element type="xs:string" name="Density"/>
+              <xs:element type="xs:string" name="MeltingPointK"/>
+              <xs:element type="xs:string" name="BoilingPointK"/>
+              <xs:element type="xs:string" name="Isotopes"/>
+              <xs:element type="xs:string" name="Discoverer"/>
+              <xs:element type="xs:string" name="YearofDiscovery"/>
+              <xs:element type="xs:string" name="SpecificHeatCapacity"/>
+              <xs:element type="xs:string" name="ElectronConfiguration"/>
+              <xs:element type="xs:string" name="DisplayRow"/>
+              <xs:element type="xs:string" name="DisplayColumn"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
